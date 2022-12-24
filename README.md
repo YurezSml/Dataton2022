@@ -68,7 +68,7 @@ memory usage: 340.9+ KB
 Данные, в виде каталога Wildberries, получены в json формате по url = 'https://www.wildberries.ru/webapi/menu/main-menu-ru-ru.json' и сохранены в файл.
 
 ## Источники
-Данные с сайта https://www.wildberries.ru\
+Данные с сайта https://www.wildberries.ru \
 Данные из статьи https://vk.com/@happython-parser-wildberries
 
 ## Описание ноутбуков
