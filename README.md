@@ -16,51 +16,50 @@
 
 ## Структура датасета
 
-RangeIndex: 1119 entries, 0 to 1118\
-Data columns (total 37 columns):
+Index: 1116 entries, 9 5G 4  6. 120 герц to 10C\
+Data columns (total 36 columns):
 
 | # | Column | Non-Null Count | Dtype |
 |------|------|------|------|
-| 0  | name           | 1116 non-null | object
-| 1  | discount       | 1119 non-null | int64  |
-| 2  | price          | 1119 non-null | int64  |
-| 3  | discount_price | 1119 non-null | int64  |
-| 4  | brand          | 1119 non-null | object
-| 5  | feedbacks      | 1119 non-null | int64  |
-| 6  | rating         | 1119 non-null | int64  |
-| 7  | link           | 1119 non-null | object
-| 8  | high_rating    | 1119 non-null | int64  |
-| 9  | memory_size    | 1119 non-null | int64  |
-| 10 | country        | 1119 non-null | object
-| 11 | weight         | 925 non-null  | float64|
-| 12 | width          | 811 non-null  | float64|
-| 13 | height         | 828 non-null  | float64|
-| 14 | thickness      | 741 non-null  | float64|
-| 15 | screen_resol   | 1028 non-null | object
-| 16 | screen_size_y  | 1068 non-null | float64|
-| 17 | screen_type    | 971 non-null  | object
-| 18 | MaxSDMemory    | 584 non-null  | float64|
-| 19 | RAM            | 1119 non-null | float64|
-| 20 | OperSystem     | 968 non-null  | object
-| 21 | SIMType        | 983 non-null  | object
-| 22 | Warranty       | 980 non-null  | float64|
-| 23 | CPUType        | 1001 non-null | object
-| 24 | CPUFreq        | 708 non-null  | object
-| 25 | CPUCores       | 1115 non-null | float64|
-| 26 | MainCameraMP   | 1119 non-null | int64  |
-| 27 | FrontCameraMP  | 1119 non-null | int64  |
-| 28 | SIMNumber      | 1103 non-null | float64|
-| 29 | Wireless       | 1012 non-null | object
-| 30 | CommunicStand  | 960 non-null  | object
-| 31 | SatelliteNavig | 908 non-null  | object
-| 32 | Battery        | 1119 non-null | int64  |
-| 33 | InterfaceType  | 1006 non-null | object
-| 34 | resolution     | 1119 non-null | int64  |
-| 35 | proportion     | 1119 non-null | float64|
-| 36 | sales_count    | 1119 non-null | int64 |
+| 0  | discount       | 1116 non-null | int64   |
+| 1  | price          | 1116 non-null | int64   |
+| 2  | discount_price | 1116 non-null | int64   |
+| 3  | brand          | 1116 non-null | object |
+| 4  | feedbacks      | 1116 non-null | int64   |
+| 5  | rating         | 1116 non-null | int64   |
+| 6  | link           | 1116 non-null | object |
+| 7  | high_rating    | 1116 non-null | int64   |
+| 8  | memory_size    | 1116 non-null | int64   |
+| 9  | country        | 1116 non-null | object |
+| 10 | weight         | 923 non-null  | float64 |
+| 11 | width          | 809 non-null  | float64 |
+| 12 | height         | 826 non-null  | float64 |
+| 13 | thickness      | 739 non-null  | float64 |
+| 14 | screen_resol   | 1025 non-null | object |
+| 15 | screen_size_y  | 1065 non-null | float64 |
+| 16 | screen_type    | 968 non-null  | object |
+| 17 | MaxSDMemory    | 583 non-null  | float64 |
+| 18 | RAM            | 1116 non-null | float64 |
+| 19 | OperSystem     | 966 non-null  | object |
+| 20 | SIMType        | 980 non-null  | object |
+| 21 | Warranty       | 978 non-null  | float64 |
+| 22 | CPUType        | 998 non-null  | object |
+| 23 | CPUFreq        | 705 non-null  | object |
+| 24 | CPUCores       | 1112 non-null | float64 |
+| 25 | MainCameraMP   | 1116 non-null | int64   |
+| 26 | FrontCameraMP  | 1116 non-null | int64   |
+| 27 | SIMNumber      | 1100 non-null | float64 |
+| 28 | Wireless       | 1009 non-null | object |
+| 29 | CommunicStand  | 957 non-null  | object |
+| 30 | SatelliteNavig | 905 non-null  | object |
+| 31 | Battery        | 1116 non-null | int64   |
+| 32 | InterfaceType  | 1003 non-null | object |
+| 33 | resolution     | 1116 non-null | int64   |
+| 34 | proportion     | 1116 non-null | float64 |
+| 35 | sales_count    | 1116 non-null | int64 |
 
-dtypes: float64(11), int64(12), object(14)\
-memory usage: 332.2+ KB
+dtypes: float64(11), int64(12), object(13)\
+memory usage: 322.6+ KB
 
 ## Методы сбора и обработки данных
 Для сбора данных переиспользован и адаптирован под задачу команды python модуль для парсинга торговой площадки Wildberries, основанный на работе с API сайта, используя библиотеки requests, json, pandas.
